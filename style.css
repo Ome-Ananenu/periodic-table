@@ -29,9 +29,7 @@ p.name{
     margin-bottom:0.2em;
        
 }
-/* #table p {
-    margin-top: 0 !important;
-} */
+
 .rownumber {
     text-align:center;
     color:white;
@@ -72,12 +70,7 @@ color: white;
 font-size: 0.45em;
 padding-left:0.2em;
 }
-/* .name{
-text-align: center;
-font-weight:bold;
-color:white;
-font-size:5.5rem;
-} */
+
 .topsentence{
     grid-column-start:1;
     color:white;
@@ -127,44 +120,6 @@ background-color: #002200;
     background-color:#44aa00;
 }
 
-/* @media screen and (min-width: 991px){
-  body{
-      margin:0;
-  }
-  
-    #table{
-       margin-top:0;
-       font-size:10px;
-       width:20%;
-      
-       padding-top:0;
-       margin:0;
-       padding:0;
-       
-   }
-   .number{
-       font-size:8px;
-   }
-   .name{
-font-size:15px;
-   }
-   .topnumber{
-       /* padding:0 auto;
-       margin:0 auto; */
-   /* }
-   p{
-       font-size:8px;
-   } */
-   
-   
-    /* .element:before {
-    margin-top: 50%;
-    position: relative;
-    content: "";
-    display: block;
-    /* } */
-/*} */
-
 @media screen and (min-width: 320px) and (
     max-width:768px){
         #table{
@@ -174,7 +129,38 @@ font-size:15px;
             grid-gap:0.19em;
             font-size:0.4em; 
         }
-
-
+        p.name{
+            padding-top:0.1rem;
+            padding-right:0.2rem;
+            padding-bottom:0.2rem;
+            padding-left:0.2rem;
+            text-align: center;
+           font-weight:bold;
+           color:white;
+          font-size:0.2rem !important;
+          margin:0;
+        }
+        .topnumber ,p{
+            text-align: center;
+            color:white;
+            font-size:0.2rem !important;
+            margin-bottom:0.2em;
+               
+        }
+        div.rownumber {
+            text-align:center;
+            color:white;
+            margin-left:0;
+            font-size:0.3rem;
+            margin:0;
+        
+        }
+        p.number{
+            text-align:left;
+            margin: 0; 
+            color: white;
+            font-size: 0.1rem !important;
+            padding-left:0.2rem;
+            }
 
     }
